@@ -1,0 +1,37 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.dark-mode {
+    --background-color: #000000;
+    --text-color: #ffffff;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
